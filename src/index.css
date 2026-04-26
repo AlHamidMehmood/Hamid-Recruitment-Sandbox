@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Libre Baskerville", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f5f2ed;
+    border-radius: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #dcd7ce;
+    border-radius: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #c7c0b3;
+  }
+}
